@@ -22,10 +22,21 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  transition: all 0.3s ease;
 }
 
 body {
   margin: 0;
   padding: 0;
+  transition: all 0.3s ease;
+}
+
+body.dark-theme {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-theme #app {
+  color: #ffffff;
 }
 </style> 
